@@ -19,7 +19,7 @@ export default class Lightbox extends Component {
       tension:       PropTypes.number,
       friction:      PropTypes.number,
     }),
-    swipeToDismiss:  PropTypes.bool,
+    swipeToDismiss:  PropTypes.bool
   };
 
   static defaultProps = {
